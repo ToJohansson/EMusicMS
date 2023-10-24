@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/music/api/v1/genres")
+@RequestMapping("/api/v1/music/genres")
 public class GenreController {
 
     @Autowired
