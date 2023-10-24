@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/media/music/api/v1")
+@RequestMapping("/api/v1/music")
 public class MediaController {
 
     @Autowired

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/music/api/v1")
+@RequestMapping("/api/v1/music")
 public class TrackController {
 
     @Autowired
